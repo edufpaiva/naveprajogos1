@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 89ebfe96c5056f0479da64dcace8e2fa
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6350068056903853522
+    second: Explodindo_0
+  - first:
+      213: 7788305222184566395
+    second: Explodindo_1
+  - first:
+      213: 4593159633457117064
+    second: Explodindo_2
+  - first:
+      213: 2942112087921234322
+    second: Explodindo_3
+  - first:
+      213: -738789683335438093
+    second: Explodindo_4
+  - first:
+      213: -6875888484770168608
+    second: Explodindo_5
+  - first:
+      213: 3896198293553578960
+    second: Explodindo_6
+  - first:
+      213: -8148161570207374132
+    second: Explodindo_7
+  - first:
+      213: 5172207094731654093
+    second: Explodindo_9
+  - first:
+      213: 6929478673137735311
+    second: Explodindo_10
+  - first:
+      213: -2480681694343719862
+    second: Explodindo_11
+  - first:
+      213: -598488637006908979
+    second: Explodindo_29
+  - first:
+      213: 4290638458764846894
+    second: Explodindo_32
+  - first:
+      213: -4981389490997068146
+    second: Explodindo_36
+  - first:
+      213: 7446486123341627603
+    second: Explodindo_40
+  - first:
+      213: -7958927349364533672
+    second: Explodindo_53
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +89,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +123,381 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Explodindo_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 963
+        width: 99
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d52f4fe049ff1850800000000000000
+      internalID: 6350068056903853522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 962
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e71aad55e951c60800000000000000
+      internalID: 7788305222184566395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 962
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887ffdcd95e2ebf30800000000000000
+      internalID: 4593159633457117064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 962
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2919de12b5b74d820800000000000000
+      internalID: 2942112087921234322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 959
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0611182ba4fb5f0800000000000000
+      internalID: -738789683335438093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_5
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 959
+        width: 99
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e043166adfe390a0800000000000000
+      internalID: -6875888484770168608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 771
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d38ebd74b3121630800000000000000
+      internalID: 3896198293553578960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 756
+        width: 110
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4ec43093aebee80800000000000000
+      internalID: -8148161570207374132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 741
+        width: 127
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc34c3af2fe57c740800000000000000
+      internalID: 5172207094731654093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_10
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 721
+        width: 139
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f861507a3247a2060800000000000000
+      internalID: 6929478673137735311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 771
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4414d76429d29dd0800000000000000
+      internalID: -2480681694343719862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_29
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 421
+        width: 171
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1781d61cdb1b7f0800000000000000
+      internalID: -598488637006908979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 447
+        width: 137
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27ee4a02f86b8b30800000000000000
+      internalID: 4290638458764846894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_36
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 398
+        width: 222
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e714586ac8edab0800000000000000
+      internalID: -4981389490997068146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_40
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 368
+        width: 292
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d047ae0dab375760800000000000000
+      internalID: 7446486123341627603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explodindo_53
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 117
+        width: 348
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8565cf37eb53c8190800000000000000
+      internalID: -7958927349364533672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
