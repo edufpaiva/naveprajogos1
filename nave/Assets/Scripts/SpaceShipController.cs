@@ -91,7 +91,23 @@ public class SpaceShipController : MonoBehaviour
                 GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             }
 
+
+            limitaCam();
+
         }
+    }
+
+
+    void limitaCam() {
+        var bottomLeft = Camera.main.ScreenToWorldPoint(Vector3.zero);
+        var topRight = Camera.main.ScreenToWorldPoint(new Vector3(Camera.main.pixelWidth, Camera.main.pixelHeight));
+
+        var cameraRect = new Rect(bottomLeft.x, bottomLeft.y, topRight.x - bottomLeft.x, topRight.y - bottomLeft.y);
+
+        float clampX = Mathf.Clamp(transform.position.x, cameraRect.xMin, cameraRect.xMax);
+        float clampY = Mathf.Clamp(transform.position.y, cameraRect.yMin, cameraRect.yMax);
+
+        transform.position = new Vector3(clampX, clampY, transform.position.z);
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -152,9 +168,6 @@ public class SpaceShipController : MonoBehaviour
 
 
     }
-
-
-
 
     void OnCollisionStay2D(Collision2D col)
     {
