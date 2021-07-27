@@ -15,7 +15,7 @@ public class RockUp : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		temp.y = altura;
-		temp.z = 0;
+		temp.z = 25;
 
 
 	}
